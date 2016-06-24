@@ -1,0 +1,10 @@
+{
+  "project_name": "Cat API - Go",
+  "project_description": "A Cat API for a Google App Engine app in Go.",
+  "show_files": [
+    "main.go",
+    "app.yaml"
+  ],
+  "read_only_demo_url": "https://try-go-demo-dot-cloud-playground.appspot.com/",
+  "download_filename": "appengine-try-go.zip"
+}

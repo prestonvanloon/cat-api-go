@@ -1,0 +1,11 @@
+language: go
+go:
+- '1.0'
+- '1.3'
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: cat-api-1352
+before_install:
+- openssl aes-256-cbc -K $encrypted_05ae1dbffbb2_key -iv $encrypted_05ae1dbffbb2_iv
+  -in client-secret.json.enc -out client-secret.json -d
